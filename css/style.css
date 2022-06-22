@@ -50,6 +50,8 @@ h2{
     justify-content:space-around;
     width: 100%;
     list-style-type: none;
+    color: #fff;
+    
   
 }
 
@@ -62,7 +64,10 @@ ul li a {
 
 li a:hover {
     background-color: #6272A3 ;
+    color: #fff;
+
 }
+
 
 .conten{
   
@@ -141,6 +146,11 @@ li a:hover {
     padding: 30px;
     height: 350px;
 }
+.locales1{
+    color: #fff;
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+}
     
 
 .contenido{
@@ -156,7 +166,8 @@ li a:hover {
 
 .ubimayor{
 height: max-content;
-
+background-image:url("../images/productos75.jpg") ;
+background-size: cover;
 }
 .ubi{
     width: auto;
@@ -188,7 +199,7 @@ height: max-content;
     .flex-container ul{
         display: flex;
         flex-direction: column;
-            }
+                  }
 
     .conteiner {grid-template-areas:
     "torta1"
@@ -230,7 +241,6 @@ height: max-content;
 }
 
  
-
 
 
    

@@ -7,6 +7,8 @@
     <title>Lafueguina</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <!-- HEADER -->
@@ -26,50 +28,31 @@
             
             </nav>
     
-   <!-- CONTENIDO  -->
-    <h2>CONTACTO</h2>
-    <p>Complete el siguiente formulario y le responderemos a la brevedad<br />
-    <strong>Muchas gracias por su consulta</strong></p>
-    
-    <div class="formu">  
-    
-        <form>
-        <label for="NOMBRE"> NOMBRE</label><br/>
-        <input type="text"  id="nombre">
-        <hr/>
-         <label for="apellido">APELLIDO</label><br/>
-        <input type="text" id="apellido">
-        <hr/>
-        <label for="correo electronico">EMAIL</label><br/>
-        <input type="text" id="email">
-        <hr/>
-        <p>
-            Selecciona tus intereses:
-            <br>
-            <input type="checkbox" name="criollos de hojaldre"> CRIOLLOS DE HOJALDRE<br>
-            <input type="checkbox" name="criollos de manteca"> CRIOLLOS DE MANTECA<br>
-            <input type="checkbox" name="criollos comun"> CRIOLLOS COMUN<br/>
-        
-        </p>
-                          
-        <label> Te gustaria recibir nuestras promociones por email?</label>
-        <br>
-        <input type="radio" name=" Te gustaria recibir nuestras promociones por email?" > SI 
-        <br>
-                   
-        <input type="radio" name=" Te gustaria recibir nuestras promociones por email?" > NO 
-        <br> 
-                     
-        <hr/>
-        <label for="mensaje"></label>
-        MENSAJE
-        <br>
-        <textarea id="comentarios" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit">
 
-        </form>
-    </div>
+
+<div class="container locales1">
+    <h2>Contacto</h2>
+    <p>Complete el siguiente formulario y le responderemos a la brevedad<br />
+        <strong>Muchas gracias por su consulta</strong></p>
+  <form action="#">
+	<div class="form-group">
+        <label for="NOMBRE"><strong>NOMBRE</strong></label>
+        <input type="text"  id="nombre" class="form-control" placeholder="Ingrese nombre" name="nombre">
+        <label for="apellido"><strong>APELLIDO</strong></label><br/>
+        <input type="text" id="apellido" class="form-control" placeholder="Ingrese su apellido" name="apellido">
+  	<label for="email"><strong>EMAIL</strong></label>
+  	<input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+      <strong>Selecciona tus intereses:</strong>
+      <br>
+      <input type="checkbox" name="criollos de hojaldre"> CRIOLLOS DE HOJALDRE<br>
+      <input type="checkbox" name="criollos de manteca"> CRIOLLOS DE MANTECA<br>
+      <input type="checkbox" name="criollos comun"> CRIOLLOS COMUN<br/>
+	</div>
+    <button type="submit" class="btn btn-primary">Ingresar</button>
+	
+  </form>
+</div>
+
 
     <!-- inicio del footer -->
     
@@ -84,7 +67,8 @@
         </div>
     </footer>
 
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
