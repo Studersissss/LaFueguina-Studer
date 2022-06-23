@@ -146,14 +146,16 @@ li a:hover {
     padding: 30px;
     height: 350px;
 }
-.locales1{
+.locales1 {
     color: #fff;
     background-image: url("../images/fondo.jpg");
-    background-size: cover;
+    background-size: cover ;
+  
+    
 }
     
 
-.contenido{
+.contenido {
     width: 98%;
     margin: 20px ;
     padding-left: 50px;
