@@ -97,7 +97,7 @@ li a:hover {
 
 .torta img {
     max-width: 100%;
-    border: solid 2px black;
+    
     
 }
 .torta1{
@@ -155,7 +155,7 @@ li a:hover {
 
 .contenido{
     width: 98%;
-    margin: 20px auto;
+    margin: 20px ;
     padding-left: 50px;
     display: grid;
     gap: 15px;
@@ -236,12 +236,11 @@ background-size: cover;
 .contenido{
     
     display: grid;
-    gap: 15px;
+    gap: 15px; 
     grid-template-columns: 1fr;
-}
-
+    grid-template-rows: 1;
  
-
+}
 
    
 
