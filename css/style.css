@@ -8,7 +8,7 @@
 }
 
 
-.formu {
+/* .formu {
     margin: 15px;
     padding: 15px;
     width: 98%;
@@ -16,13 +16,12 @@
     background-color: #6272A3;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0, 0,0 / 30%); 
-}
+} */
 
 
 .encabezado {
     background-color: #A38D52;
     color: hsl(0, 0%, 96%);
-    margin: auto;
     height: 100px; 
     font-family: 'Roboto', sans-serif;    
     font-size: 25px;
@@ -155,12 +154,12 @@ li a:hover {
 }
     
 
-.contenido {
+.contenido .contenido1 {
     width: 98%;
     margin: 20px ;
     padding-left: 50px;
     display: grid;
-    gap: 15px;
+    gap: 35px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, auto);
     
@@ -215,8 +214,8 @@ background-size: cover;
     .footers{
         display: flex;
         flex-wrap: wrap ;
-        padding: 40px;
-        margin: 40px;
+        /* padding: 40px;
+        margin: 40px; */
         
         
  
