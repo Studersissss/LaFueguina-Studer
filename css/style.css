@@ -224,7 +224,7 @@ background-size: cover;
     height: max-content;
 }
 
-}
+
 .conten{ height: max-content;
 }
 .historia {
@@ -234,16 +234,20 @@ background-size: cover;
     height: max-content;
     padding: 15px;
 }
-.contenido{
+
+
+.contenido1{
     
     display: grid;
     gap: 15px; 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1);
+    
  
 }
 
-   
+
+}  
 
 
 
