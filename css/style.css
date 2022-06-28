@@ -42,6 +42,11 @@ h2{
     font-weight: bold;
 }
 
+.ubimayor h3{
+    margin: 15px;
+    color: #fff;
+}
+
 .flex-container ul{
     display: flex; 
     background-color: #A38D52;
@@ -127,7 +132,7 @@ li a:hover {
 .historia{
     background-image: url("../images/pane.jpg");
     background-size: cover;
-    padding: 30px;
+    padding: 10px;
     height:500px;
     /* justify-content: space-around; */
     
@@ -135,7 +140,7 @@ li a:hover {
 .historia .titulos { 
     display: grid;
     align-items: center;
-    padding: 30px 30px 30px 30px;;
+    padding: 10px;
     margin: 20px auto;
 
 }
