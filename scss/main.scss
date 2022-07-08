@@ -10,9 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
 }
-
 
 h2{
     display: grid;
@@ -21,8 +19,6 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
-
 
 .conten{
   
@@ -35,17 +31,12 @@ h2{
 .conten h2, .locales h2{ 
     display: grid ;
     justify-content: center;
-    
-
 }
   
 #galeria img {
     width: 100%;
     height: 300px;
-    
 }
-
-
 
 .conteiner{ 
     display: grid;
@@ -54,46 +45,41 @@ h2{
     "torta1 torta1 torta2 torta2 torta3 torta3 "
     "torta4 torta4 torta5 torta5 torta6 torta6 ";
     gap:20px;
-  
-
 }
 
 .torta img {
     max-width: 100%;
-    
-    
 }
+
 .torta1{
     grid-area: torta1;
-    
 }
+
 .torta2{
     grid-area: torta2;
-      
 }
+
 .torta3{
     grid-area: torta3;   
-   
 }
+
 .torta4{
     grid-area: torta4;
-    
-   
 }
+
 .torta5{
     grid-area: torta5;
-
-}.torta6{
-    grid-area: torta6;
 }
 
-
+.torta6{
+    grid-area: torta6;
+}
 
 .locales{
     background-image: url("../images/fondo.jpg");
     background-size: cover;
     padding: 30px;
-    height: 350px;
+    
 .locales1 {
     color: #fff;
     background-image: url("../images/fondo.jpg");
@@ -102,7 +88,6 @@ h2{
     
 }
     
-
 .contenido .contenido1 {
     width: 98%;
     margin: 20px ;
@@ -115,10 +100,11 @@ h2{
 }
 
 .ubimayor{
-height: max-content;
-background-image:url("../images/productos75.jpg") ;
-background-size: cover;
+    height: max-content;
+    background-image:url("../images/productos75.jpg") ;
+    background-size: cover;
 }
+
 .ubi{
     width: auto;
     padding: 15px;
@@ -126,27 +112,28 @@ background-size: cover;
     
 }
 
+  
    
 /* media queries responsive */
 
 @media screen and (max-width:768px)
 {
     
-    .encabezado h1{
+.encabezado h1{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap ;
         font-size: 25px;
       
-    }
+}
     
-    .flex-container ul{
+.flex-container ul{
         display: flex;
         flex-direction: column;
-                  }
+}
 
-    .conteiner {grid-template-areas:
+.conteiner {grid-template-areas:
     "torta1"
     "torta2"
     "torta3"
@@ -154,43 +141,36 @@ background-size: cover;
     "torta5"
     "torta6"
 ;
-    }
-    .footers{
+}
+
+.footers{
         display: flex;
         flex-wrap: wrap ;
-        /* padding: 40px;
-        margin: 40px; */
-        
-        
- 
+
 }
+
 .ubimayor{
     height: max-content;
 }
 
-
 .conten{ height: max-content;
 }
+
 .historia {
     height: max-content;
 }
+
 .locales {
     height: max-content;
     padding: 15px;
 }
 
-
 .contenido1{
-    
     display: grid;
     gap: 15px; 
     grid-template-columns: repeat(1fr);
     grid-template-rows: repeat(1);
-    
- 
 }
-
-
 }  
 
 

@@ -58,7 +58,7 @@ li a:hover {
 .footers {
   background-color: #A38D52;
   color: #020305;
-  height: 150px; }
+  height: max-content; }
 
 * {
   margin: 0;
@@ -117,8 +117,7 @@ h2 {
 .locales {
   background-image: url("../images/fondo.jpg");
   background-size: cover;
-  padding: 30px;
-  height: 350px; }
+  padding: 30px; }
   .locales .locales1 {
     color: #fff;
     background-image: url("../images/fondo.jpg");
@@ -157,9 +156,7 @@ h2 {
     grid-template-areas: "torta1" "torta2" "torta3" "torta4" "torta5" "torta6"; }
   .footers {
     display: flex;
-    flex-wrap: wrap;
-    /* padding: 40px;
-        margin: 40px; */ }
+    flex-wrap: wrap; }
   .ubimayor {
     height: max-content; }
   .conten {
