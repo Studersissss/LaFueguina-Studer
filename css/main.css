@@ -58,24 +58,21 @@ li a:hover {
 .footers {
   background-color: #A38D52;
   color: #020305;
-  height: max-content; }
+  padding: 10px; }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
+  box-sizing: border-box; }
 
 h2 {
   display: grid;
   margin: 15px 15px;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: bold; }
 
 .conten {
-  background-image: url("../images/productos75.jpg");
-  background-size: cover;
   padding: 30px;
   height: 750px; }
 
