@@ -9,8 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // font-family: 'Roboto', sans-serif;
-}
+ }
 
 h2{
     display: grid;
@@ -22,10 +21,9 @@ h2{
 
 .conten{
   
-    // background-image: url("../images/productos75.jpg");
-    // background-size: cover;
     padding: 30px;
     height: 750px;
+   
   
 }
 .conten h2, .locales h2{ 
@@ -84,12 +82,13 @@ h2{
     color: #fff;
     background-image: url("../images/fondo.jpg");
     background-size: cover ;
+
   }
     
 }
     
 .contenido .contenido1 {
-    width: 98%;
+    width: 100%;
     margin: 20px ;
     padding-left: 50px;
     display: grid;
@@ -108,12 +107,8 @@ h2{
 .ubi{
     width: auto;
     padding: 15px;
-    
-    
 }
 
-  
-   
 /* media queries responsive */
 
 @media screen and (max-width:768px)
