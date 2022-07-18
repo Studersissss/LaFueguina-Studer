@@ -1,7 +1,7 @@
 .encabezado {
     background-color: $colorprimero;
     color: hsl(0, 0%, 96%);
-    height: 100px; 
+    height: 65px; 
     font-family: 'Roboto', sans-serif;    
     font-size: 25px;
     h1{
@@ -12,28 +12,27 @@
     }
 }
 
-.flex-container ul{
-    display: flex; 
-    background-color: $colorprimero;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-    list-style-type: none;
-    color: $blancos;
+// .flex-container ul{
+//     display: flex; 
+//     background-color: $colorprimero;
+//     flex-direction: row;
+//     justify-content:space-around;
+//     width: 100%;
+//     list-style-type: none;
+//     color: $blancos;
     
   
-}
+// }
 
-ul li a {
-    display: inline-block;
-    padding: 15px 90px;
-    text-decoration: none;
-    color: $blancos;
+// ul li a {
+//     display: inline-block;
+//     padding: 15px 90px;
+//     text-decoration: none;
+//     color: $blancos;
   
-}
+// }
 
-li a:hover {
-    background-color: #6272A3 ;
-    color: $blancos;
+// li a:hover {
+//     background-color: #6272A3 ;
+//     color: $blancos;
 
-}
