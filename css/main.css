@@ -4,7 +4,7 @@
   height: 65px;
   font-family: 'Roboto', sans-serif;
   font-size: 25px; }
-.encabezado h1 {
+  .encabezado h1 {
     padding: 15px;
     text-align: center;
     font-weight: 100;
@@ -37,7 +37,7 @@ h2 {
 
 .conten {
   padding: 30px;
-  height: 750px;
+  height: max-content;
   background-color: #F7F2E0; }
 
 .conten h2, .locales h2 {
@@ -61,11 +61,11 @@ h2 {
   font-size: 17px; }
 
 .navbar a:hover {
-  background-color: #678395;
+  background-color: #33342c;
   color: #fff; }
 
 .navbar a.active {
-  background-color: #678395;
+  background-color: #33342c;
   color: #fff; }
 
 .navbar .icon {
@@ -78,8 +78,7 @@ h2 {
 .conteiner {
   display: grid;
   grid-template-columns: 6, 1fr;
-  grid-template-areas: "torta1 torta1 torta2 torta2 torta3 torta3 "
- "torta4 torta4 torta5 torta5 torta6 torta6 ";
+  grid-template-areas: "torta1 torta1 torta2 torta2 torta3 torta3 " "torta4 torta4 torta5 torta5 torta6 torta6 ";
   gap: 20px; }
 
 .torta img {
@@ -129,12 +128,7 @@ h2 {
     flex-wrap: wrap;
     font-size: 25px; }
   .conteiner {
-    grid-template-areas: "torta1"
- "torta2"
- "torta3"
- "torta4"
- "torta5"
- "torta6"; }
+    grid-template-areas: "torta1" "torta2" "torta3" "torta4" "torta5" "torta6"; }
   .footers {
     display: flex;
     flex-wrap: wrap; }

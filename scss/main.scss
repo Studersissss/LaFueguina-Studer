@@ -17,10 +17,9 @@ h2{
     font-weight: bold;
 }
 
-.conten{
-  
+.conten{  
     padding: 30px;
-    height: 750px;
+    height: max-content;
     background-color:  #F7F2E0;
 }
 
@@ -46,11 +45,11 @@ h2{
     font-size: 17px; }
   
 .navbar a:hover {
-    background-color: #678395;
+    background-color: #33342c ;
     color: #fff; }
   
 .navbar a.active {
-    background-color:  #678395;
+    background-color:   #33342c;
     color: #fff; }
   
   .navbar .icon {
@@ -106,7 +105,6 @@ h2{
     gap: 35px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, auto);
-    
 }
 
 .ubimayor{

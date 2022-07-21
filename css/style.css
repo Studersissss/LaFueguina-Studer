@@ -37,30 +37,27 @@ h2{
     bottom: 0;
     width: 100%; }
   
-  .navbar a {
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    font-size: 17px; }
-  
-  .navbar a:hover {
-    background-color: #678395;
-        color: black; }
-  
-  .navbar a.active {
-    background-color: #678395;
+    font-size: 17px; 
+;}
+
+.navbar a.active {
+    background-color:  #33342c;
     
     color: white; }
   
-  .navbar .icon {
+.navbar .icon {
     display: none; }
 
 
  nav a:hover {
-    background-color: #6272A3 ;
+    background-color: #33342c ;
     color: #fff; 
 }
 
@@ -73,7 +70,7 @@ h2{
     height: max-content;
     background-color: #F7F2E0 ;
 }
- .conten h2, .locales h2 { 
+.conten h2, .locales h2 { 
     display: grid ;
     justify-content: center;
 }     
@@ -154,7 +151,7 @@ background-color: #F7F2E0;
 .ubiletra{
     color: #060707d8;
 }
-    .ubimargen{
+.ubimargen{
         display: flex;
         justify-content: center;
 }
@@ -175,7 +172,7 @@ background-color: #F7F2E0;
 @media screen and (max-width:768px)
 {
     
-    .encabezado h1{
+.encabezado h1{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -184,7 +181,7 @@ background-color: #F7F2E0;
       
     }
     
-    .flex-container ul{
+.flex-container ul{
         display: flex;
         flex-direction: column;
                   }
@@ -197,8 +194,8 @@ background-color: #F7F2E0;
     "torta5"
     "torta6"
 ;
-    }
-    .footers{
+}
+.footers{
         display: flex;
         flex-wrap: wrap ;
         /* padding: 40px;
